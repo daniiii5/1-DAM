@@ -1,0 +1,11 @@
+/**introduzca por el teclado tres numeros e igorme de cual es el mayor de los tres**/
+import java.util.Scanner;
+public class CondicionalesEnlazados2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Introduce tres numeros: ");
+		
+	}
+
+}
