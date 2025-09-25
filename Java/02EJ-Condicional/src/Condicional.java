@@ -18,6 +18,7 @@ public class Condicional {
 		} else {
 			System.out.println("No tienes que pagar impuestos");
 		}
+		scanner.close();
 	}
 
 }
