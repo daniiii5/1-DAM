@@ -16,7 +16,8 @@ public class DatosUser {
 		
 		resultado = oper1+oper2;
 		System.out.println("La suma de " + oper1 + " y " + oper2 + " da como resultado: " + resultado);
-		
+
+		teclado.close();
 	}
 
 }

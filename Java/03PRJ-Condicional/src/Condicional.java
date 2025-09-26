@@ -14,6 +14,7 @@ public class Condicional {
 		} else {
 			System.out.println("No tienes la edad minima para entrar a la discoteca");
 		}
+		scanner.close();
 	}
 
 }

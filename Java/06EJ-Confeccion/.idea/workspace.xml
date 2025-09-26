@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b7a5c6c-b6fc-4fce-bf75-578d6d7f72ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06PRJ-Test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06PRJ-Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06PRJ-Test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06PRJ-Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06PRJ-Test/06PRJ-Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06PRJ-Test/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestJava/src/TestJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.lock_info" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.lock_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.buildship.core/gradle/versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.buildship.core/gradle/versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/.indexes/e4/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/.indexes/e4/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1713582526.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/201565936.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/201565936.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2658978869.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2805062872.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2890041323.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2890041323.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3255010591.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3345836435.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3829991590.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4115351473.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4120560960.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/AutoLaunchProtocolsComponent/1.0.0.9/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/AutoLaunchProtocolsComponent/1.0.0.9/protocols.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Crashpad/settings.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Crashpad/settings.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/BrowsingTopicsState" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/BrowsingTopicsState" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_0" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_3" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/f_000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Code Cache/js/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Code Cache/js/index-dir/the-real-index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DIPS" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DIPS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnGraphiteCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnGraphiteCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnGraphiteCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnGraphiteCache/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnWebGPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnWebGPUCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnWebGPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnWebGPUCache/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/EdgeEDrop/EdgeEDropSQLite.db" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/EdgeEDrop/EdgeEDropSQLite.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/GPUCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/GPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/GPUCache/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/History" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/History" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/History-journal" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/History-journal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Network Persistent State" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Network Persistent State" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Preferences" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/TransportSecurity" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/TransportSecurity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Web Data" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Web Data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/favorites_diagnostic.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/favorites_diagnostic.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/GraphiteDawnCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/GraphiteDawnCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/GraphiteDawnCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/GraphiteDawnCache/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Local State" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Local State" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/RevisitationBloomfilter" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/RevisitationBloomfilter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/ShaderCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/ShaderCache/data_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/ShaderCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/ShaderCache/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/local/uriCache_" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/local/uriCache_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Variations" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/Variations" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/a99d66cfce8ca170740ce0403956f4dfaf4683829a89f4b7ad9c95303871e284" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02PRJ-DatosUser/bin/DatosUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../02PRJ-DatosUser/bin/DatosUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02PRJ-DatosUser/src/DatosUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02PRJ-DatosUser/src/DatosUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03PRJ-Condicional/bin/Condicional.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03PRJ-Condicional/bin/Condicional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03PRJ-Condicional/src/Condicional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03PRJ-Condicional/src/Condicional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04EJ-CondCompuesto/bin/CondCompuesto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04EJ-CondCompuesto/bin/CondCompuesto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04EJ-CondCompuesto/src/CondCompuesto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04EJ-CondCompuesto/src/CondCompuesto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05EJ-CondicionalesEnlazados/bin/CondicionalesEnlazados.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05EJ-CondicionalesEnlazados/bin/CondicionalesEnlazados.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05EJ-CondicionalesEnlazados/bin/CondicionalesEnlazados2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05EJ-CondicionalesEnlazados/bin/CondicionalesEnlazados2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05EJ-CondicionalesEnlazados/src/CondicionalesEnlazados.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05EJ-CondicionalesEnlazados/src/CondicionalesEnlazados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05EJ-CondicionalesEnlazados/src/CondicionalesEnlazados2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05EJ-CondicionalesEnlazados/src/CondicionalesEnlazados2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05PRJ-Test/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05PRJ-Test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05PRJ-Test/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05PRJ-Test/src/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05PRJ-Test/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MySQL/main19092025.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../MySQL/main19092025.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="33E2Qsbgjv6OrcsFkLp9ibi24nc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Confeccion.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b7a5c6c-b6fc-4fce-bf75-578d6d7f72ad" name="Changes" comment="" />
+      <created>1758867899506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758867899506</updated>
+    </task>
+    <servers />
+  </component>
+</project>

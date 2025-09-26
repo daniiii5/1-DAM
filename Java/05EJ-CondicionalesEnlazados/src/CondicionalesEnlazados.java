@@ -25,5 +25,6 @@ public class CondicionalesEnlazados {
 		}else {
 			System.err.println(media + " Es isuficiente.");
 		}
+		scanner.close();
 	}
 }

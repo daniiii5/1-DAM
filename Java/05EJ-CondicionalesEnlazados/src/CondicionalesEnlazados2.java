@@ -11,5 +11,6 @@ public class CondicionalesEnlazados2 {
 		if (mayor<num2) {mayor=num2;}
 		if (mayor<num3) {mayor=num3;}
 		System.out.println("El numero mayor es "+mayor);
+		scanner.close();
 	}
 }

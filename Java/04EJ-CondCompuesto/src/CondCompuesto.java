@@ -14,5 +14,6 @@ public class CondCompuesto {
 		} else {
 			System.out.println("Numero no valido.");
 		}
+		scanner.close();
 	}
 }
