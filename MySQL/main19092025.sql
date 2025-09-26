@@ -19,7 +19,7 @@ where LifeExpectancy > 75 and Continent = "Europe"
 -- Continentes que contengan algun pais con una extension superior a 
 -- 20.000.000. Solo proyectar el nombre del continente
 
-select Continent
+select distinct Continent
 from country
 where SurfaceArea > 2000000
 ;
