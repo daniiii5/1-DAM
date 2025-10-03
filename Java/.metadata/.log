@@ -1723,3 +1723,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-10-03 08:19:49.568
 !MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (276) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-03 08:19:54.872
+!MESSAGE Logback config file: X:\Mi unidad\1-DAM\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
