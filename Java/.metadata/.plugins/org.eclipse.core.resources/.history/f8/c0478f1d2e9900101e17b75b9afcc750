@@ -1,9 +1,0 @@
-import java.util.Scanner;
-public class CondicionalesEnlazados {
-
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		float nota = scanner.nextFloat();
-	}
-
-}

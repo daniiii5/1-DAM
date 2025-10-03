@@ -1,9 +1,9 @@
 /* Pide por teclado un numero, muestra por pantalla cuantos digitos tiene (sin funciones ni librerias no vistas en clase)*/
 #include<stdio.h>
 int main(){
-    int num, digit, inverted;
+    int num, inverted;
     // Se va dividiendo entre 10 hasta que sea 0, al ser un entero no tiene decimales
-    for (digit = 0;digit < 5;){
+    for (int digit = 0;digit < 5;){
         digit = 0;
         printf("\nIntroduce un numero de minimo 5 digitos: ");
         scanf("%d", &num);

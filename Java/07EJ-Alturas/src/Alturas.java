@@ -12,7 +12,7 @@ public class Alturas {
 		double num = 0;
 		double temp;
 		while (i < limit) {
-			i++;
+			i++; 
 			temp = scanner.nextDouble();
 			num = num+temp;
 		}
