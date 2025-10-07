@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00PRJ-HelloWorld/00PRJ-HelloWorld.iml" filepath="$PROJECT_DIR$/00PRJ-HelloWorld/00PRJ-HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01EJ-Variables/01EJ-Variables.iml" filepath="$PROJECT_DIR$/01EJ-Variables/01EJ-Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01PRJ-Variables/01PRJ-Variables.iml" filepath="$PROJECT_DIR$/01PRJ-Variables/01PRJ-Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02EJ-Condicional/02EJ-Condicional.iml" filepath="$PROJECT_DIR$/02EJ-Condicional/02EJ-Condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02PRJ-DatosUser/02PRJ-DatosUser.iml" filepath="$PROJECT_DIR$/02PRJ-DatosUser/02PRJ-DatosUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03PRJ-Condicional/03PRJ-Condicional.iml" filepath="$PROJECT_DIR$/03PRJ-Condicional/03PRJ-Condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04EJ-CondCompuesto/04EJ-CondCompuesto.iml" filepath="$PROJECT_DIR$/04EJ-CondCompuesto/04EJ-CondCompuesto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04PRJ-CondCompuesto/04PRJ-CondCompuesto.iml" filepath="$PROJECT_DIR$/04PRJ-CondCompuesto/04PRJ-CondCompuesto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05EJ-CondicionalesEnlazados/05EJ-CondicionalesEnlazados.iml" filepath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/05EJ-CondicionalesEnlazados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06EJ-Confeccion/06EJ-Confeccion.iml" filepath="$PROJECT_DIR$/06EJ-Confeccion/06EJ-Confeccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06PRJ-Operaciones/06PRJ-Operaciones.iml" filepath="$PROJECT_DIR$/06PRJ-Operaciones/06PRJ-Operaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07EJ-Alturas/07EJ-Alturas.iml" filepath="$PROJECT_DIR$/07EJ-Alturas/07EJ-Alturas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07EJ-Boolean/07EJ-Boolean.iml" filepath="$PROJECT_DIR$/07EJ-Boolean/07EJ-Boolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07EJ-TablaMultiplicar/07EJ-TablaMultiplicar.iml" filepath="$PROJECT_DIR$/07EJ-TablaMultiplicar/07EJ-TablaMultiplicar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07PRJ-BucleWhile/07PRJ-BucleWhile.iml" filepath="$PROJECT_DIR$/07PRJ-BucleWhile/07PRJ-BucleWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08PRJ-BucleFor/08PRJ-BucleFor.iml" filepath="$PROJECT_DIR$/08PRJ-BucleFor/08PRJ-BucleFor.iml" />
+    </modules>
+  </component>
+</project>

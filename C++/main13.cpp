@@ -1,4 +1,4 @@
-/* Pide por teclado un numero, muestra por pantalla cuantos digitos tiene (sin funciones ni librerias no vistas en clase)*/
+/* Pide por teclado un numero, muestra por pantalla el numero invertido (sin funciones ni librerias no vistas en clase)*/
 #include<stdio.h>
 int main(){
     int num, inverted;

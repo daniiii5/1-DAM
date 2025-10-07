@@ -1,4 +1,4 @@
-/* Pide por teclado un numero, muestra por pantalla cuantos digitos tiene (sin funciones ni librerias no vistas en clase)*/
+/* Pide por teclado un numero, muestra por pantalla la suma de sus posiciones pares (sin funciones ni librerias no vistas en clase)*/
 #include<stdio.h>
 int main(void){
     int num, digit = 0, finalNum = 0;
