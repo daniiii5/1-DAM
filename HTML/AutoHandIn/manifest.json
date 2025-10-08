@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Classroom Auto Hand In",
+    "version": "1.0",
+    "description": "Entrega automáticamente en Classroom usando inyección directa.",
+    "permissions": ["activeTab", "scripting", "tabs"],
+    "background": {
+      "service_worker": "content.js"
+    },
+    "action": {
+      "default_title": "Auto Hand In"
+    }
+  }
+  

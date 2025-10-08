@@ -5,426 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69f872f1-0487-4029-bdf9-f6407c330658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../C++/main15.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/main16.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/main17.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/calculadora.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/main13.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/main13.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/main14.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/main14.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/main14.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/main14.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Practica1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09PRJ-DoWhile/09PRJ-DoWhile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09PRJ-DoWhile/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++/main16.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/main16.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.lock_info" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.lock_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.buildship.core/gradle/versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.buildship.core/gradle/versions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/00PRJ-HelloWorld/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/00PRJ-HelloWorld/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/01EJ-Variables/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/01EJ-Variables/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/01PRJ-Variables/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/01PRJ-Variables/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/02EJ-Condicional/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/02EJ-Condicional/.markers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/02EJ-Condicional/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/02PRJ-DatosUser/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/02PRJ-DatosUser/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/03EJ-Variables/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/03EJ-Variables/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/03PRJ-Condicional/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/03PRJ-Condicional/.markers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/03PRJ-Condicional/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/04EJ-CondCompuesto/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/04EJ-CondCompuesto/.markers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/04EJ-CondCompuesto/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/04PRJ-CondCompuesto/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/04PRJ-CondCompuesto/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/.markers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/05EJ-CondicionalesEnlazados/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.variables.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/CondCompuesto (1).launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/CondCompuesto.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/CondicionalesEnlazados.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/CondicionalesEnlazados2 (1).launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/CondicionalesEnlazados2.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/201565936.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2890041323.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3527523272.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/9/39/refactorings.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/9/39/refactorings.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/CertificateRevocation/6498.2025.9.4/crl-set" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/CertificateRevocation/6498.2025.9.4/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Crashpad/settings.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Crashpad/settings.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Crashpad/throttle_store.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Crashpad/throttle_store.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/AutofillStrikeDatabase/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/BrowsingTopicsSiteData" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/BrowsingTopicsSiteData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/BrowsingTopicsState" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/BrowsingTopicsState" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/BudgetDatabase/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_0" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_2" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_3" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/data_3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/f_000002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cache/Cache_Data/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/ClientCertificates/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Code Cache/js/ca4476001c08c94c_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Code Cache/js/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Code Cache/js/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Code Cache/wasm/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DIPS" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DIPS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DashTrackerDatabase" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DashTrackerDatabase-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnGraphiteCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnGraphiteCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnGraphiteCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnGraphiteCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnWebGPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnWebGPUCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnWebGPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/DawnWebGPUCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/EdgeEDrop/EdgeEDropSQLite.db" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/EdgeEDrop/EdgeEDropSQLite.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension Rules/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension Rules/CURRENT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension Rules/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension Rules/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension Scripts/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension Scripts/CURRENT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension Scripts/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension Scripts/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/CURRENT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Extension State/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/ExtensionActivityComp" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/ExtensionActivityComp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/ExtensionActivityComp-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/ExtensionActivityEdge" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/ExtensionActivityEdge" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Favicons" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Favicons" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Feature Engagement Tracker/EventDB/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/GPUCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/GPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/GPUCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/History" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/History" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/000003.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Local Storage/leveldb/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Login Data" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Login Data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Login Data For Account" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Login Data For Account" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Network Action Predictor" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Network Action Predictor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Network Persistent State" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Network Persistent State" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/PersistentOriginTrials/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Reporting and NEL" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Reporting and NEL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Safe Browsing Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Safe Browsing Cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Secure Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Secure Preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/ServerCertificate" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/ServerCertificate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/000003.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Session Storage/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Shared Dictionary/cache/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Shared Dictionary/cache/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Shared Dictionary/db" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Shared Dictionary/db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/SharedStorage" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/SharedStorage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Site Characteristics Database/MANIFEST-000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/CURRENT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Sync Data/LevelDB/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Top Sites" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Top Sites" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/TransportSecurity" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/TransportSecurity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Trust Tokens" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Trust Tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Vpn Tokens" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Vpn Tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Web Data" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Web Data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/commerce_subscription_db/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/discount_infos_db/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/discounts_db/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/favorites_diagnostic.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/favorites_diagnostic.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/heavy_ad_intervention_opt_out.db" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/heavy_ad_intervention_opt_out.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/parcel_tracking_db/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/000003.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/CURRENT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/000003.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/CURRENT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Default/shared_proto_db/metadata/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Domain Actions/3.0.0.16/domain_actions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Domain Actions/3.0.0.16/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/data_0" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/data_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/data_3" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/data_3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/f_000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GrShaderCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GraphiteDawnCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GraphiteDawnCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GraphiteDawnCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/GraphiteDawnCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Last Version" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Last Version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Local State" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Local State" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/OriginTrials/0.0.1.7/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/PKIMetadata/24.0.0.1/crs.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/PKIMetadata/24.0.0.1/ct_config.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/PKIMetadata/24.0.0.1/kp_pinslist.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/PKIMetadata/24.0.0.1/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/RevisitationBloomfilter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ShaderCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ShaderCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ShaderCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ShaderCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/RemoteData/edgeSettings" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/RemoteData/edgeSettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/RemoteData/edgeSettings_2.0-a82cb2897a8bf9445d68dcc2be05af89ad4b2fda1fddb2952693be7cd5353ad3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/RemoteData/topTraffic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/RemoteData/topTraffic_638004170464094982" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/local/downloadCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/local/downloadCache_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/local/uriCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/SmartScreen/local/uriCache_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Speech Recognition/1.15.0.1/Microsoft.CognitiveServices.Speech.core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Speech Recognition/1.15.0.1/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Indexed Rules/37/10.34.0.81/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Indexed Rules/37/10.34.0.81/Ruleset Data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Filtering Rules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Filtering Rules-AA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Filtering Rules-CA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Part-DE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Part-ES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Part-FR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Part-IT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Part-NL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Part-RU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/Part-ZH" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/adblock_snippet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.81/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/english_wikipedia.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/female_names.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/male_names.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/passwords.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/ranked_dicts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/surnames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/ZxcvbnData/3.1.0.0/us_tv_and_film.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/00af3f07b5abb71f6d30337e1eef62fa280f06ef19485c0cf6b72171f92ccc0a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/4b81b4df3ad971287e1ae02c449344fcfa5d20431de17b2ba8854cc9cdce4089" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/89f43cb3df807293de2772d5f01ac2fc1482b38ccc8fdaee859b80642b7a0487" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/95fd9d48e4fc245a3f3a99a3a16ecd1355050ba3f4afc555f19a97c7f9b49677" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/a81d1959892ae4180554347df1b97834abba2e1a5e6b9aeba000ecea26eabecc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/b987bdc4f2ad2a409b964921d4a5db1cdbe07f9c98f868293b4cc32acdc42cec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/bcb93cba8636743d1fbd32be3bd8ce8ff602323895bf4d136c26b9bc64b0a6a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/fa29a6d5775ff340900a65b39b02fc8b4b77d403c048d8debf22f2f5d09c61a0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/component_crx_cache/metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/extensions_crx_cache/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-af.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-as.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-be.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-bg.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-bn.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-cs.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-cu.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-cy.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-da.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-de-1901.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-de-1996.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-de-ch-1901.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-el.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-en-gb.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-en-us.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-es.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-et.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-eu.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-fr.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-ga.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-gl.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-gu.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-hi.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-hr.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-hu.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-hy.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-it.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-ka.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-kn.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-la.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-lt.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-lv.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-ml.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-mn-cyrl.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-mr.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-mul-ethi.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-nb.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-nl.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-nn.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-or.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-pa.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-pt.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-ru.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-sk.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-sl.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-sq.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-sv.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-ta.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-te.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-tk.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-uk.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/hyph-und-ethi.hyb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.swt/EBWebView/hyphen-data/120.0.6050.0/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.terminal.view.ui/.executables/data.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00PRJ-HelloWorld/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00PRJ-HelloWorld/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00PRJ-HelloWorld/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00PRJ-HelloWorld/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00PRJ-HelloWorld/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00PRJ-HelloWorld/bin/HolaMundo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00PRJ-HelloWorld/src/HolaMundo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/01EJ-Variables.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01EJ-Variables/01EJ-Variables.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/bin/Variables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/src/Variables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01EJ-Variables/src/Variables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PRJ-Variables/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PRJ-Variables/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PRJ-Variables/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PRJ-Variables/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PRJ-Variables/01PRJ-Variables.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01PRJ-Variables/01PRJ-Variables.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PRJ-Variables/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PRJ-Variables/bin/Variables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01PRJ-Variables/src/Variables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02EJ-Condicional/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02EJ-Condicional/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02EJ-Condicional/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02EJ-Condicional/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02EJ-Condicional/02EJ-Condicional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02EJ-Condicional/02EJ-Condicional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02EJ-Condicional/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02EJ-Condicional/bin/Condicional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02EJ-Condicional/src/Condicional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/02PRJ-DatosUser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02PRJ-DatosUser/02PRJ-DatosUser.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/bin/DatosUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/bin/Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/src/DatosUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02PRJ-DatosUser/src/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/02PRJ-DatosUser/src/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03PRJ-Condicional/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03PRJ-Condicional/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03PRJ-Condicional/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03PRJ-Condicional/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03PRJ-Condicional/03PRJ-Condicional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03PRJ-Condicional/03PRJ-Condicional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03PRJ-Condicional/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03PRJ-Condicional/bin/Condicional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03PRJ-Condicional/src/Condicional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04EJ-CondCompuesto/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04EJ-CondCompuesto/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04EJ-CondCompuesto/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04EJ-CondCompuesto/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04EJ-CondCompuesto/04EJ-CondCompuesto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04EJ-CondCompuesto/04EJ-CondCompuesto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04EJ-CondCompuesto/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04EJ-CondCompuesto/bin/CondCompuesto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04EJ-CondCompuesto/src/CondCompuesto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04PRJ-CondCompuesto/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04PRJ-CondCompuesto/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04PRJ-CondCompuesto/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04PRJ-CondCompuesto/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04PRJ-CondCompuesto/04PRJ-CondCompuesto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04PRJ-CondCompuesto/04PRJ-CondCompuesto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04PRJ-CondCompuesto/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04PRJ-CondCompuesto/bin/CondCompuesto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04PRJ-CondCompuesto/src/CondCompuesto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/05EJ-CondicionalesEnlazados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/05EJ-CondicionalesEnlazados.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/bin/CondicionalesEnlazados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/bin/CondicionalesEnlazados2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/src/CondicionalesEnlazados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/src/CondicionalesEnlazados2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06EJ-Confeccion/src/Confeccion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06PRJ-Operaciones/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06PRJ-Operaciones/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06PRJ-Operaciones/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06PRJ-Operaciones/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06PRJ-Operaciones/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06PRJ-Operaciones/src/Operaciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Alturas/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Alturas/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Alturas/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Alturas/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Alturas/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Alturas/src/Alturas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Boolean/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Boolean/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Boolean/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Boolean/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Boolean/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Boolean/07EJ-Boolean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07EJ-Boolean/07EJ-Boolean.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-Boolean/src/Boolean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-TablaMultiplicar/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-TablaMultiplicar/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-TablaMultiplicar/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-TablaMultiplicar/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-TablaMultiplicar/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-TablaMultiplicar/07EJ-TablaMultiplicar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07EJ-TablaMultiplicar/07EJ-TablaMultiplicar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07EJ-TablaMultiplicar/src/TablaMultiplicar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/07PRJ-BucleWhile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07PRJ-BucleWhile/07PRJ-BucleWhile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07PRJ-BucleWhile/src/BucleWhile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/08PRJ-BucleFor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08PRJ-BucleFor/08PRJ-BucleFor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/09DEMO-IntelliJ/09DEMO-IntelliJ.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/09Demo/09Demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08PRJ-BucleFor/src/BucleFor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Test/09Test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Test/src/DemoFor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/05EJ-CondicionalesEnlazados/CondicionalesEnlazados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/05EJ-CondicionalesEnlazados/CondicionalesEnlazados2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySQL/Bloque 0.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQL/Bloque 0.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySQL/Bloque 1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQL/Bloque 1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,6 +31,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="33hnIQpnpE11UeWeTQ3nCOLnXMT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -452,10 +41,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/daniv/Escritorio/Java",
@@ -475,10 +66,17 @@
       <recent name="D:\daniv\Escritorio\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="00Introduccion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="09PRJ-DoWhile" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -492,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
