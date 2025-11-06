@@ -82,7 +82,7 @@ Carpetas con máquinas virtuales de **Windows 11** (cliente) y **Windows Server 
 
 ## 📜 Licencia
 
-Este repositorio se distribuye bajo la licencia [MIT](LICENSE).  
+Este repositorio se distribuye bajo la licencia [GNU General Public License v3.0](LICENSE).  
 Puedes explorar, usar y adaptar el contenido libremente citando la fuente.
 
 ---
