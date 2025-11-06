@@ -10,11 +10,10 @@ int main(void)
     printf("Introduce un numero.");
     scanf("%i", &num);
     for (int temp = num; temp > 0; temp/=10) inv = inv * 10 + temp % 10;
-    if (num == inv)
-    {
+    if (num == inv) {
         printf("El numero %i es capicua.", num);
-    } else
-    {
+    }
+    else {
         printf("El numero %i no es capicua.", num);
     }
 }

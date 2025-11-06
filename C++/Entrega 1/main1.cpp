@@ -1,20 +1,19 @@
 //
-// Created by daniel.quddus_alumno on 08/10/2025.
+// Created by daniel.quddus_alumno on 20/10/2025.
 //
-/*
-- ✅ Imprimir los 1000 primeros números primo
-*/
+// Imprimir los primeros numeros primos
+
 #include<stdio.h>
 int main(void) {
-    //Imprimir los primeros 1000 numeros primos
-    for (int l = 0, limit = 1000; limit >= 0;l++) {
+    // Que no se divida por el mismo
+    // Que no se divida por 1
+    int limit = 1000;
+    for (int j = 0;j<=limit;j++) {
+        // Devuelve si es primo o no
+        int num = j;
         bool primo = true;
-        for (int i = l - 1; primo && i != 0; i--) {
-            if (l % i == 0 && i != l && i != 1) primo = false;
-        };
-        if (primo) {
-            printf("\nEl numero %i es primo", l);
-            limit--;
-        };
+        for(auto i = num;i>0;i--) if (i > 1 && i != num && num % i == 0) primo = false;
+        if (primo) printf("El numero %d es primo.\n", num);
+        // if (!primo) printf("El numero %d no es primo.\n", num);
     }
-    }
+}
