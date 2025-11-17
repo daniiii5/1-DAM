@@ -31,7 +31,10 @@
       <module fileurl="file://$PROJECT_DIR$/10PRJ-Switch/10PRJ-Switch.iml" filepath="$PROJECT_DIR$/10PRJ-Switch/10PRJ-Switch.iml" />
       <module fileurl="file://$PROJECT_DIR$/11PRJ-Strings/11PRJ-Strings.iml" filepath="$PROJECT_DIR$/11PRJ-Strings/11PRJ-Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/12EJ-Strings/12EJ-Strings.iml" filepath="$PROJECT_DIR$/12EJ-Strings/12EJ-Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13EJ-TryCatch/13EJ-TryCatch.iml" filepath="$PROJECT_DIR$/13EJ-TryCatch/13EJ-TryCatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13PRJ-TryCatch/13PRJ-TryCatch.iml" filepath="$PROJECT_DIR$/13PRJ-TryCatch/13PRJ-TryCatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ahorcado/Ahorcado.iml" filepath="$PROJECT_DIR$/Ahorcado/Ahorcado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen-Prueba/Examen-Prueba.iml" filepath="$PROJECT_DIR$/Examen-Prueba/Examen-Prueba.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
     </modules>
   </component>
