@@ -37,7 +37,10 @@
       <module fileurl="file://$PROJECT_DIR$/14EJ-CorreoFunciones/14EJ-CorreoFunciones.iml" filepath="$PROJECT_DIR$/14EJ-CorreoFunciones/14EJ-CorreoFunciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/14PRJ-Funciones/14PRJ-Funciones.iml" filepath="$PROJECT_DIR$/14PRJ-Funciones/14PRJ-Funciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ahorcado/Ahorcado.iml" filepath="$PROJECT_DIR$/Ahorcado/Ahorcado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cajero/Cajero.iml" filepath="$PROJECT_DIR$/Cajero/Cajero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculadora de Area de Figuras Simples/Calculadora de Area de Figuras Simples.iml" filepath="$PROJECT_DIR$/Calculadora de Area de Figuras Simples/Calculadora de Area de Figuras Simples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Examen-Prueba/Examen-Prueba.iml" filepath="$PROJECT_DIR$/Examen-Prueba/Examen-Prueba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IncludesFunction/IncludesFunction.iml" filepath="$PROJECT_DIR$/IncludesFunction/IncludesFunction.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
     </modules>
   </component>
