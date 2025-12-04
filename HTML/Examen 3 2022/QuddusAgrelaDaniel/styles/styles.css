@@ -1,0 +1,183 @@
+:root {
+    --morado: #550065;
+    --morado-claro: #5b1774;
+    --dorado: rgb(213, 196, 108);
+    --background-color: #550065;
+    --header-height: 10dvh;
+    --burger-size: 3dvh;
+    --menu-top-height: 64px;
+    --menu-lateral-width: 25dvw;
+    --banner-height: 100px;
+}
+body {
+    margin: 0;
+    color: #000;
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--morado);
+    color: #fff;
+    height: var(--header-height);
+}
+.head-element {
+    display: flex;
+    align-items: center;
+    margin: calc(var(--header-height)/6);
+}
+.fifa-logo {
+    height: calc(var(--header-height)/1.5);
+}
+.burger-menu {
+    display: flex;
+}
+.burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.burger-line {
+    z-index: 1;
+    width: var(--burger-size);
+    height: calc(var(--burger-size)/10);
+    margin: calc(var(--burger-size)/8);
+    background-color: #fff;
+    border-radius: 100em;
+}
+.text-selectable-element:hover {
+    color: orange;
+    cursor: pointer;
+}
+#checkbox {
+    display: none;
+}
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.exp-menu {
+    display: flex;
+    position: fixed;
+    top: var(--header-height);
+    bottom: 0;
+}
+.main-exp-menu {
+    background-color: var(--morado);
+    width: 0;
+    overflow: hidden;
+    color: #999;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.1s;
+}
+#checkbox:checked + .main-exp-menu {
+    width: var(--menu-lateral-width);
+}
+.main-exp-menu-el {
+    white-space: nowrap;
+    padding: 15px;
+}
+.main-exp-menu-el:hover {
+    color: #fff;
+}
+.sub-exp-menu {
+    width: 0;
+    background-color: var(--morado-claro);
+    overflow: hidden;
+    color: #999;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: var(--menu-lateral-width);
+    flex-direction: column;
+    transition: 0.1s;
+}
+.sub-exp-menu-el {
+    white-space: nowrap;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.sub-exp-menu-el:hover {
+    color: #fff;
+}
+.add-menu:hover .sub-exp-menu {
+    width: var(--menu-lateral-width);
+}
+.sub-exp-menu:hover {
+    width: var(--menu-lateral-width);
+}
+@media (max-width: 700px) {
+    .sub-exp-menu {
+        background-color: var(--morado);
+        width: 100%;
+        position: static;
+        max-height: 0;
+        transition: max-height 0.5s ease-in-out;
+    }
+    .add-menu:hover .sub-exp-menu {
+        max-height: 50em;
+        width: 100%;
+        opacity: 1;
+    }
+    #checkbox:checked + .main-exp-menu {
+        width: 100dvw;
+    }
+}
+
+
+.cover {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - var(--header-height));
+    margin-top: var(--header-height);
+}
+
+.hublot {
+    width: 30%;
+    background-color: var(--morado);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hublot-img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.banner {
+    width: 70%;
+    background-image: url("../images/jugadores.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.banner-text {
+    color: white;
+    padding: 40px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.banner-desc {
+    font-size: 1rem;
+    opacity: 0.9;
+}

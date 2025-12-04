@@ -42,6 +42,7 @@
       <module fileurl="file://$PROJECT_DIR$/Examen-Prueba/Examen-Prueba.iml" filepath="$PROJECT_DIR$/Examen-Prueba/Examen-Prueba.iml" />
       <module fileurl="file://$PROJECT_DIR$/IncludesFunction/IncludesFunction.iml" filepath="$PROJECT_DIR$/IncludesFunction/IncludesFunction.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumPrimos/NumPrimos.iml" filepath="$PROJECT_DIR$/NumPrimos/NumPrimos.iml" />
     </modules>
   </component>
 </project>

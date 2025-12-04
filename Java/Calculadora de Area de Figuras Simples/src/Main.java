@@ -29,8 +29,8 @@ public class Main {
         do {
             switch(opt) {
             case 1:
-                System.out.println("Introduce el radio en centimetros.");
-                try {
+                Sys
+                try {tem.out.println("Introduce el radio en centimetros.");
                     width = input.nextDouble();
                     result = circle(width);
                     System.out.println("El area del circulo es de " + result);
