@@ -6,7 +6,7 @@
 #include<string.h>
 int main(void) {
 
-    // -Pide por teclado 5 letras, cuales son vocales?
+    // - Pide por teclado 5 letras, cuales son vocales?
     int vocales = 0;
     printf("Introduce 5 letras: ");
     for (int i = 0; i < 5; i++) {

@@ -11,10 +11,10 @@ int main(void) {
     char abc[256] = {0};
     printf("Introduce una palabra: ");
     scanf("%s", palabra);
-    // Este suma la cantidad de letras a el array abc en la posicion del codigo ascii de la letra
+    // Este suma la cantidad de letras al array abc en la posicion del codigo ascii de la letra
     for (int i = 0; palabra[i] != 0; i++) abc[palabra[i]]++;
     int maxChar = -1;
-    // Esto calcula cual es la posicion de la letra que mas se repite
+    // Esto calcula cuál es la posicion de la letra que más se repite
     for (int j = 0; j < 256;j++) if (abc[j] > abc[maxChar]) maxChar = j;
     printf("El caracter que mas se repite es el %c con numero en tabla ascii %d", maxChar, maxChar);
 }

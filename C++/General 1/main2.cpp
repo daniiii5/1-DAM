@@ -19,5 +19,5 @@ int main(void) {
             phrase[i] == 'o'||
             phrase[i] == 'u') printf("%c", phrase[i]);
     }
-
+    return 0;
 }
