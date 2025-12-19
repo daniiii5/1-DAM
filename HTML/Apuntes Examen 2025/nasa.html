@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - Live Animation Replica</title>
+    <style>
+        /* =========================================
+           1. VARIABLES Y RESET
+           ========================================= */
+        :root {
+            --nasa-blue: #0B3D91;
+            --nasa-red: #FC3D21;
+            --dark-bg: #000000;
+            --gray-bg: #f5f5f5;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--gray-bg);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* =========================================
+           2. HEADER Y NAV
+           ========================================= */
+        header { background-color: white; position: relative; z-index: 1000; }
+
+        /* Top Bar */
+        .top-bar {
+            background-color: black; color: white; padding: 5px 40px;
+            display: flex; justify-content: flex-end;
+            font-size: 12px; font-weight: bold; letter-spacing: 0.5px;
+        }
+        .top-bar span { margin-left: 20px; cursor: pointer; color: #ccc; transition: 0.3s; }
+        .top-bar span:hover { color: white; }
+
+        /* Nav Principal */
+        .main-nav {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 40px; height: 80px; background: white; border-bottom: 1px solid #ddd;
+        }
+
+        .nasa-logo {
+            width: 60px; height: 60px; background: var(--nasa-blue); border-radius: 50%;
+            color: white; display: flex; align-items: center; justify-content: center;
+            font-weight: 900; font-size: 16px; position: relative; z-index: 10;
+        }
+        .nasa-logo::after { content: "NASA"; }
+
+        .nav-links { display: flex; list-style: none; height: 100%; align-items: center; }
+
+        .nav-item {
+            padding: 0 15px; height: 100%; display: flex; align-items: center;
+            cursor: pointer; font-weight: bold; font-size: 14px; position: static; /* Clave para el Mega Menú */
+            border-bottom: 4px solid transparent;
+        }
+        .nav-item:hover { border-bottom: 4px solid var(--nasa-red); background-color: #f9f9f9; }
+
+        /* =========================================
+           3. EL MEGA MENÚ
+           ========================================= */
+        .mega-menu {
+            position: absolute; top: 100%; left: 0; width: 100%;
+            background: #222; color: white; padding: 40px;
+            display: none; grid-template-columns: repeat(4, 1fr); gap: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3); z-index: 999;
+        }
+        .nav-item:hover .mega-menu { display: grid; } /* Magia hover */
+
+        .mega-menu h3 { color: white; font-size: 16px; text-transform: uppercase; border-bottom: 1px solid #444; padding-bottom: 10px; margin-bottom: 15px; }
+        .mega-menu a { display: block; color: #bbb; text-decoration: none; margin-bottom: 8px; font-size: 14px; }
+        .mega-menu a:hover { color: white; text-decoration: underline; }
+
+
+        /* =========================================
+           4. EL BOTÓN "LIVE" (ANIMACIÓN OPCIÓN 3)
+           ========================================= */
+        .search-container { display: flex; align-items: center; gap: 15px; }
+        .search-icon { font-size: 20px; cursor: pointer; }
+
+        .btn-live {
+            background-color: var(--nasa-red);
+            color: white;
+            /* Padding ajustado: 35px a la izquierda para dejar sitio a la animación */
+            padding: 8px 15px 8px 35px; 
+            border-radius: 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+            text-decoration: none;
+            
+            /* Posición relativa necesaria para que los puntos absolutos se queden dentro */
+            position: relative; 
+            display: inline-flex;
+            align-items: center;
+        }
+
+        /* A. El punto blanco sólido (FIJO) */
+        .btn-live::before {
+            content: '';
+            position: absolute;
+            left: 12px; /* Posición fija a la izquierda */
+            width: 8px;
+            height: 8px;
+            background-color: white;
+            border-radius: 50%;
+            z-index: 2; /* Encima de la onda */
+        }
+
+        /* B. La onda expansiva (ANIMADA) */
+        .btn-live::after {
+            content: '';
+            position: absolute;
+            left: 12px; /* Misma posición que el punto */
+            width: 8px; /* Mismo tamaño inicial */
+            height: 8px;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 50%;
+            z-index: 1; /* Detrás del punto */
+            
+            /* Animación centrada en el punto */
+            transform-origin: center;
+            animation: onda-radio 1.5s infinite ease-out;
+        }
+
+        /* C. La definición de la animación */
+        @keyframes onda-radio {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(3.5); /* Crece 3.5 veces su tamaño */
+                opacity: 0; /* Desaparece suavemente */
+            }
+        }
+
+
+        /* =========================================
+           5. HERO Y GRID (RESTO DE LA PÁGINA)
+           ========================================= */
+        .hero {
+            width: 100%; height: 70vh;
+            background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop');
+            background-size: cover; background-position: center;
+            display: flex; align-items: flex-end;
+        }
+        .hero-overlay { background: linear-gradient(to top, black, transparent); width: 100%; padding: 60px 50px; }
+        .hero h1 { font-size: 3.5rem; color: white; margin: 15px 0; line-height: 1; }
+        .hero p { color: #ddd; max-width: 600px; margin-bottom: 20px; font-size: 1.1rem; }
+        .hero-tag { background: var(--nasa-red); color: white; padding: 5px 10px; font-size: 12px; font-weight: bold; text-transform: uppercase; }
+        .btn-outline { border: 2px solid white; color: white; padding: 10px 30px; text-decoration: none; font-weight: bold; transition: 0.3s; display: inline-block; }
+        .btn-outline:hover { background: white; color: black; }
+
+        .news-section { padding: 50px; max-width: 1400px; margin: 0 auto; }
+        .section-title { font-size: 32px; margin-bottom: 30px; border-left: 5px solid var(--nasa-blue); padding-left: 15px; }
+        
+        .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 300px 300px; gap: 20px; }
+        
+        .card { position: relative; overflow: hidden; background: black; cursor: pointer; }
+        .card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; opacity: 0.8; }
+        .card:hover .card-img { transform: scale(1.1); opacity: 1; }
+        .card-content { position: absolute; bottom: 0; left: 0; padding: 20px; width: 100%; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); }
+        .card h3 { color: white; font-size: 18px; margin-bottom: 5px; }
+        .card span { color: #ccc; font-size: 12px; text-transform: uppercase; }
+        
+        .col-2 { grid-column: span 2; } /* Grid Span Helper */
+
+        @media (max-width: 768px) {
+            .nav-links, .mega-menu { display: none; }
+            .news-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
+            .hero h1 { font-size: 2rem; }
+            .top-bar { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <span>NASA TV</span><span>MISIONES</span><span>EVENTOS</span><span>MULTIMEDIA</span>
+        </div>
+
+        <nav class="main-nav">
+            <div class="nasa-logo" title="NASA"></div>
+
+            <ul class="nav-links">
+                <li class="nav-item">
+                    Missions ▾
+                    <div class="mega-menu">
+                        <div>
+                            <h3>Artemis</h3>
+                            <a href="#">The Rocket</a><a href="#">Spacesuits</a><a href="#">Orion Spacecraft</a>
+                        </div>
+                        <div>
+                            <h3>Humans in Space</h3>
+                            <a href="#">Space Station</a><a href="#">Commercial Crew</a><a href="#">Astronauts</a>
+                        </div>
+                        <div>
+                            <h3>Solar System</h3>
+                            <a href="#">Mars</a><a href="#">Juno</a><a href="#">Europa Clipper</a>
+                        </div>
+                        <div>
+                            <h3>Universe</h3>
+                            <a href="#">James Webb</a><a href="#">Hubble</a><a href="#">Exoplanets</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">Humans in Space</li>
+                <li class="nav-item">Earth & Climate</li>
+                <li class="nav-item">Solar System</li>
+                <li class="nav-item">Universe</li>
+            </ul>
+
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <a href="#" class="btn-live">NASA+ LIVE</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <span class="hero-tag">Breaking News</span>
+            <h1>Artemis II: The Journey Begins</h1>
+            <p>NASA announces the four astronauts who will venture around the Moon on Artemis II.</p>
+            <a href="#" class="btn-outline">Read The Story</a>
+        </div>
+    </section>
+
+    <section class="news-section">
+        <h2 class="section-title">Latest from NASA</h2>
+        <div class="news-grid">
+            <article class="card col-2">
+                <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2072&auto=format&fit=crop" class="card-img">
+                <div class="card-content"><span>Earth Science</span><h3>Global Climate Patterns</h3></div>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=2036&auto=format&fit=crop" class="card-img">
+                <div class="card-content"><span>Commercial</span><h3>Cargo Resupply Launch</h3></div>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1614728853913-1e32005e307a?q=80&w=2070&auto=format&fit=crop" class="card-img">
+                <div class="card-content"><span>Mars Rover</span><h3>Perseverance Findings</h3></div>
+            </article>
+            <article class="card col-2">
+                <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=2111&auto=format&fit=crop" class="card-img">
+                <div class="card-content"><span>Deep Space</span><h3>Webb Telescope New Nebula</h3></div>
+            </article>
+        </div>
+    </section>
+
+</body>
+</html>
