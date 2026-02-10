@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00Introduccion/00Introduccion.iml" filepath="$PROJECT_DIR$/00Introduccion/00Introduccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01EJ-Variables/01EJ-Variables.iml" filepath="$PROJECT_DIR$/01EJ-Variables/01EJ-Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01PRJ-Variables/01PRJ-Variables.iml" filepath="$PROJECT_DIR$/01PRJ-Variables/01PRJ-Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02PRJ-DatosUser/02PRJ-DatosUser.iml" filepath="$PROJECT_DIR$/02PRJ-DatosUser/02PRJ-DatosUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03PRJ-Condicional/03PRJ-Condicional.iml" filepath="$PROJECT_DIR$/03PRJ-Condicional/03PRJ-Condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04EJ-CondCompuesto/04EJ-CondCompuesto.iml" filepath="$PROJECT_DIR$/04EJ-CondCompuesto/04EJ-CondCompuesto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04PRJ-CondCompuesto/04PRJ-CondCompuesto.iml" filepath="$PROJECT_DIR$/04PRJ-CondCompuesto/04PRJ-CondCompuesto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05EJ-CondicionalesEnlazados/05EJ-CondicionalesEnlazados.iml" filepath="$PROJECT_DIR$/05EJ-CondicionalesEnlazados/05EJ-CondicionalesEnlazados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06EJ-Confeccion/06EJ-Confeccion.iml" filepath="$PROJECT_DIR$/06EJ-Confeccion/06EJ-Confeccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06PRJ-Operaciones/06PRJ-Operaciones.iml" filepath="$PROJECT_DIR$/06PRJ-Operaciones/06PRJ-Operaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07EJ-Alturas/07EJ-Alturas.iml" filepath="$PROJECT_DIR$/07EJ-Alturas/07EJ-Alturas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07EJ-Boolean/07EJ-Boolean.iml" filepath="$PROJECT_DIR$/07EJ-Boolean/07EJ-Boolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07EJ-TablaMultiplicar/07EJ-TablaMultiplicar.iml" filepath="$PROJECT_DIR$/07EJ-TablaMultiplicar/07EJ-TablaMultiplicar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07PRJ-BucleWhile/07PRJ-BucleWhile.iml" filepath="$PROJECT_DIR$/07PRJ-BucleWhile/07PRJ-BucleWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08EJ-BucleFor/08EJ-BucleFor.iml" filepath="$PROJECT_DIR$/08EJ-BucleFor/08EJ-BucleFor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08EJ-CuentaAtras/08EJ-CuentaAtras.iml" filepath="$PROJECT_DIR$/08EJ-CuentaAtras/08EJ-CuentaAtras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08EJ-NumPerfecto/08EJ-NumPerfecto.iml" filepath="$PROJECT_DIR$/08EJ-NumPerfecto/08EJ-NumPerfecto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08EJ-NumPerfectoLimite/08EJ-NumPerfectoLimite.iml" filepath="$PROJECT_DIR$/08EJ-NumPerfectoLimite/08EJ-NumPerfectoLimite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08PRJ-BucleFor/08PRJ-BucleFor.iml" filepath="$PROJECT_DIR$/08PRJ-BucleFor/08PRJ-BucleFor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09EJ-DoWhile/09EJ-DoWhile.iml" filepath="$PROJECT_DIR$/09EJ-DoWhile/09EJ-DoWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09PRJ-DoWhile/09PRJ-DoWhile.iml" filepath="$PROJECT_DIR$/09PRJ-DoWhile/09PRJ-DoWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/1 Evaluacion.iml" filepath="$PROJECT_DIR$/.idea/1 Evaluacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10EJ-CuadradoVacio/10EJ-CuadradoVacio.iml" filepath="$PROJECT_DIR$/10EJ-CuadradoVacio/10EJ-CuadradoVacio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10EJ-Meses/10EJ-Meses.iml" filepath="$PROJECT_DIR$/10EJ-Meses/10EJ-Meses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10EJ-SwitchCalculo/10EJ-SwitchCalculo.iml" filepath="$PROJECT_DIR$/10EJ-SwitchCalculo/10EJ-SwitchCalculo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10EJ-Triangulo/10EJ-Triangulo.iml" filepath="$PROJECT_DIR$/10EJ-Triangulo/10EJ-Triangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10PRJ-Switch/10PRJ-Switch.iml" filepath="$PROJECT_DIR$/10PRJ-Switch/10PRJ-Switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11PRJ-Strings/11PRJ-Strings.iml" filepath="$PROJECT_DIR$/11PRJ-Strings/11PRJ-Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12EJ-Strings/12EJ-Strings.iml" filepath="$PROJECT_DIR$/12EJ-Strings/12EJ-Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13EJ-TryCatch/13EJ-TryCatch.iml" filepath="$PROJECT_DIR$/13EJ-TryCatch/13EJ-TryCatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13PRJ-TryCatch/13PRJ-TryCatch.iml" filepath="$PROJECT_DIR$/13PRJ-TryCatch/13PRJ-TryCatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14EJ-Caldulador/14EJ-Caldulador.iml" filepath="$PROJECT_DIR$/14EJ-Caldulador/14EJ-Caldulador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14EJ-CorreoFunciones/14EJ-CorreoFunciones.iml" filepath="$PROJECT_DIR$/14EJ-CorreoFunciones/14EJ-CorreoFunciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14PRJ-Funciones/14PRJ-Funciones.iml" filepath="$PROJECT_DIR$/14PRJ-Funciones/14PRJ-Funciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ahorcado/Ahorcado.iml" filepath="$PROJECT_DIR$/Ahorcado/Ahorcado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cajero/Cajero.iml" filepath="$PROJECT_DIR$/Cajero/Cajero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculadora de Area de Figuras Simples/Calculadora de Area de Figuras Simples.iml" filepath="$PROJECT_DIR$/Calculadora de Area de Figuras Simples/Calculadora de Area de Figuras Simples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen Diciembre 2025/Examen Diciembre 2025.iml" filepath="$PROJECT_DIR$/Examen Diciembre 2025/Examen Diciembre 2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen-Prueba/Examen-Prueba.iml" filepath="$PROJECT_DIR$/Examen-Prueba/Examen-Prueba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IncludesFunction/IncludesFunction.iml" filepath="$PROJECT_DIR$/IncludesFunction/IncludesFunction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumPrimos/NumPrimos.iml" filepath="$PROJECT_DIR$/NumPrimos/NumPrimos.iml" />
+    </modules>
+  </component>
+</project>
