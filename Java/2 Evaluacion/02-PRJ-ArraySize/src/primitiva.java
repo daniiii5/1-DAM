@@ -1,7 +1,10 @@
-package PACKAGE_NAME;
-
 public class primitiva {
-	public static void main(String[] args) {
-	
+
+    public primitiva() {
+
+    }
+
+    public static void main(String[] args) {
+
     }
 }
