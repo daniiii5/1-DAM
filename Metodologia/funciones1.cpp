@@ -2,7 +2,7 @@
 -Función que devuelva el triple de un número
 -Procedimiento que pinte por pantalla un nombre pasado por parámetro seguido de la expresión “buen amigo, mejor persona.”
 -Función a la que le pases peso y altura y te devuelva el IMC (índice de masa corporal)
--Convierte en un procedimiento el problema de la pirámide de asteriscos (Pasa su altura por parámetro)
+-Convierte en un procedimiento el problema d la pirámide de asteriscos (Pasa su altura por parámetro)
 -Realiza tu propia función LONGITUD, que devuelva el número de caracteres de una cadena.
 -Función que devuelva true o false, dependiendo de si el parámetro que le has pasado es una vocal o no lo es.
 */

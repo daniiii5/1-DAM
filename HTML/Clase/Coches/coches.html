@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coches</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      .seleccionado {
+        background-color: red;
+        color: white;
+      }
+      .grande {
+        font-size: 2em;
+      }
+      .importante {
+        font-weight: bold;
+      }
+      .oculto {
+        display: none !important;
+      }
+    </style>
+    <script src="coches.js"></script>
+  </head>
+  <body>
+    <form action="" id="formNuevoCoche">
+      <label for="inputMarca">Marca:</label>
+      <input
+        type="text"
+        id="inputMarca"
+        name="inputMarca"
+        value="Ferrari"
+        required
+      />
+      <label for="inputModelo">Modelo:</label>
+      <input
+        type="text"
+        id="inputModelo"
+        name="inputModelo"
+        value="488"
+        required
+      />
+      <label for="inputKm">Kilómetros:</label>
+      <input
+        type="number"
+        id="inputKm"
+        name="inputKm"
+        value="100"
+        min="0"
+        required
+      />
+      <input type="submit" value="Añadir" />
+    </form>
+    <br />
+    <table id="tablaCoches">
+      <tr>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Km</th>
+        <th>Acciones</th>
+      </tr>
+    </table>
+    <form action="" id="formMoverCoche" class="oculto">
+      <label for="inputKmMover">Kilometros a mover el coche: </label>
+      <input
+        type="number"
+        id="inputKmMover"
+        name="inputKmMover"
+        value="25"
+        min="0"
+        required
+      />
+      <input type="submit" value="Mover" />
+    </form>
+  </body>
+</html>

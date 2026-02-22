@@ -1,5 +1,5 @@
-/*
-Escribe un programa que reciba una palabra principal y, posteriormente, una segunda cadena que contenga los caracteres que se desean buscar. El programa debe recorrer la palabra principal y contar cuántas veces aparece cada uno de los caracteres indicados en la segunda cadena, mostrando el desglose individual.
+/*nga los caracteres que se desean buscar. El programa debe recorrer la pa
+Escribe un programa que reciba una palabra principal y, posteriormente, una segunda cadena que contelabra principal y contar cuántas veces aparece cada uno de los caracteres indicados en la segunda cadena, mostrando el desglose individual.
 
 Ejemplo de ejecución:
     Entrada: Palabra: ferrocarril, Letras: ra
