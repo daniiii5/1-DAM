@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Replica - Full CSS</title>
+    <style>
+        /* =========================================
+           1. RESET Y CONFIGURACIÓN BÁSICA
+           ========================================= */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'DIN Alternate', 'Arial Narrow', sans-serif; /* Fuente tipo técnica */
+            background-color: black;
+            color: white;
+            overflow-x: hidden; /* Evita scroll lateral indeseado */
+        }
+
+        /* =========================================
+           2. SISTEMA DE MENÚ LATERAL (EL TRUCO SIN JS)
+           ========================================= */
+        
+        /* A. Ocultamos el checkbox que controla todo */
+        #menu-toggle {
+            display: none;
+        }
+
+        /* B. El Fondo Oscuro (Backdrop) */
+        /* Al hacer clic aquí, se cierra el menú porque es un label del checkbox */
+        .backdrop {
+            position: fixed;
+            top: 0; 
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0,0,0,0.5); /* Semi-transparente */
+            backdrop-filter: blur(5px); /* Efecto borroso elegante */
+            z-index: 150; /* Debajo del menú, encima del contenido */
+            display: none; /* Oculto por defecto */
+            transition: opacity 0.3s;
+        }
+
+        /* C. La Barra Lateral (Sidebar) */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 250px;
+            height: 100vh;
+            background-color: black;
+            z-index: 200; /* Lo más alto de todo */
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            
+            /* Animación de entrada */
+            transform: translateX(100%); /* Escondido a la derecha */
+            transition: transform 0.4s cubic-bezier(0.77, 0, 0.175, 1); /* Movimiento suave */
+        }
+
+        /* D. Estilos de los enlaces del menú lateral */
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            transition: color 0.3s;
+        }
+        .sidebar a:hover { color: #999; }
+
+        /* E. Botón cerrar (X) dentro del menú */
+        .close-btn {
+            align-self: flex-end; /* A la derecha */
+            cursor: pointer;
+            font-size: 24px;
+            margin-bottom: 30px;
+            user-select: none;
+        }
+
+        /* --- LÓGICA DE ACTIVACIÓN (LA MAGIA) --- */
+        
+        /* Si el checkbox está marcado, muestra el fondo oscuro */
+        #menu-toggle:checked ~ .backdrop {
+            display: block;
+        }
+
+        /* Si el checkbox está marcado, trae el menú a la pantalla (0%) */
+        #menu-toggle:checked ~ .sidebar {
+            transform: translateX(0);
+        }
+
+
+        /* =========================================
+           3. HEADER (BARRA SUPERIOR)
+           ========================================= */
+        .header {
+            position: fixed; /* Siempre visible */
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100; /* Encima de las fotos */
+            background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);
+        }
+
+        .logo {
+            font-size: 26px;
+            letter-spacing: 5px;
+            font-weight: 800;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        /* Menú central (Solo escritorio) */
+        .nav-center {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+        
+        .nav-center a {
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        /* Efecto de línea al pasar el ratón */
+        .nav-center a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            bottom: -5px;
+            left: 0;
+            background-color: white;
+            transform: scaleX(0); /* Invisible inicial */
+            transition: transform 0.3s;
+        }
+        .nav-center a:hover::after { transform: scaleX(1); }
+
+
+        /* Botón Hamburguesa (Label que activa el checkbox) */
+        .menu-trigger {
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        /* Responsive: Ocultar menú central en pantallas pequeñas */
+        @media (max-width: 900px) {
+            .nav-center { display: none; }
+            .header { padding: 15px 20px; }
+        }
+
+
+        /* =========================================
+           4. SCROLL SNAP Y SECCIONES
+           ========================================= */
+        .scroll-container {
+            height: 100vh;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory; /* Obliga a parar en cada sección */
+        }
+
+        .section {
+            height: 100vh; /* Altura completa */
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            
+            /* Flexbox para colocar el texto abajo a la izquierda */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 0 0 100px 50px;
+            
+            scroll-snap-align: start; /* Aquí es donde se "engancha" el scroll */
+        }
+
+        /* Capa negra transparente para leer texto */
+        .overlay {
+            position: absolute;
+            bottom: 0; left: 0; width: 100%; height: 50%;
+            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+            z-index: 1;
+        }
+
+        .content {
+            z-index: 10; /* Encima del overlay */
+            max-width: 500px;
+            animation: fadeInUp 1s ease-out; /* Animación al cargar */
+        }
+
+        .subtitle {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 45px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            line-height: 1;
+        }
+
+        .btn-main {
+            display: inline-block;
+            border: 2px solid white;
+            color: white;
+            padding: 12px 35px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 13px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .btn-main:hover {
+            background-color: white;
+            color: black;
+        }
+
+        /* Animación sencilla */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive Móvil */
+        @media (max-width: 600px) {
+            .section { padding-left: 20px; padding-bottom: 80px; align-items: center; text-align: center; }
+            .title { font-size: 32px; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <input type="checkbox" id="menu-toggle">
+    
+    <label for="menu-toggle" class="backdrop"></label>
+
+    <nav class="sidebar">
+        <label for="menu-toggle" class="close-btn">&times;</label>
+        
+        <a href="#">Misiones</a>
+        <a href="#">Lanzamientos</a>
+        <a href="#">Carreras</a>
+        <a href="#">Noticias</a>
+        <a href="#">Tienda</a>
+    </nav>
+
+
+    <header class="header">
+        <div class="logo">SPACEX</div>
+        
+        <ul class="nav-center">
+            <li><a href="#">Falcon 9</a></li>
+            <li><a href="#">Falcon Heavy</a></li>
+            <li><a href="#">Dragon</a></li>
+            <li><a href="#">Starship</a></li>
+        </ul>
+
+        <div style="display: flex; gap: 20px; align-items: center;">
+            <a href="#" style="text-decoration:none; color:white; font-size:13px; font-weight:bold; text-transform:uppercase;">Shop</a>
+            
+            <label for="menu-toggle" class="menu-trigger">Menu ☰</label>
+        </div>
+    </header>
+
+
+    <main class="scroll-container">
+        
+        <section class="section" style="background-image: url('https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?q=80&w=2070&auto=format&fit=crop');">
+            <div class="overlay"></div>
+            <div class="content">
+                <h3 class="subtitle">Próximo Lanzamiento</h3>
+                <h2 class="title">Starship Flight 3</h2>
+                <a href="#" class="btn-main">Ver Detalles</a>
+            </div>
+        </section>
+
+        <section class="section" style="background-image: url('https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=2070&auto=format&fit=crop');">
+            <div class="overlay"></div>
+            <div class="content">
+                <h3 class="subtitle">Reciente</h3>
+                <h2 class="title">Misión Crew-7</h2>
+                <a href="#" class="btn-main">Repetir Misión</a>
+            </div>
+        </section>
+
+        <section class="section" style="background-image: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2072&auto=format&fit=crop');">
+            <div class="overlay"></div>
+            <div class="content">
+                <h3 class="subtitle">Exploración</h3>
+                <h2 class="title">Viaje a Marte</h2>
+                <a href="#" class="btn-main">Saber Más</a>
+            </div>
+        </section>
+
+        <section class="section" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop');">
+            <div class="overlay"></div>
+            <div class="content">
+                <h3 class="subtitle">Infraestructura</h3>
+                <h2 class="title">Starlink Global</h2>
+                <a href="#" class="btn-main">Ordenar</a>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>

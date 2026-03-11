@@ -1,0 +1,140 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    max-width: 900px;
+    margin: 40px auto; /* Centra el contenido en la pantalla */
+    padding: 0 20px;
+    text-align: center; /* Centra el título h1 */
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+/* --- Formulario Superior --- */
+#alumnoForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espacio entre los elementos del formulario */
+    margin-bottom: 30px;
+}
+
+select,
+input[type="datetime-local"] {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-family: inherit;
+}
+
+select:focus,
+input[type="datetime-local"]:focus {
+    border-color: #0056b3;
+}
+
+/* --- Botones --- */
+button {
+    font-family: inherit;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+/* Botón principal (Programar tutoría) */
+.btn-blue {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.btn-blue:hover {
+    background-color: #004494;
+}
+
+/* Botones de acción en la tabla (asumiendo que JS les añadirá estas clases) */
+.btn-completar {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.btn-completar:hover {
+    background-color: #218838;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
+
+/* --- Tabla --- */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Evita bordes dobles */
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center; /* Centra el texto en las celdas */
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Color para el estado "Pendiente" (asumiendo que JS le pone esta clase) */
+.estado-pendiente {
+    color: #dc3545; /* Rojo suave */
+}
+
+/* Color para el estado "Completado" (asumiendo que JS le pone esta clase) */
+.estado-completado {
+    color: #28a745; /* Verde suave */
+}
+
+/* El fondo oscuro que ocupa toda la pantalla */
+.modal-overlay {
+    display: none; /* Lo ocultamos por defecto. Cambia a 'flex' para verlo */
+    position: fixed; /* Lo fija a la ventana del navegador */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Negro con 60% de opacidad */
+    z-index: 999;
+
+    /* Flexbox para centrar la caja interior horizontal y verticalmente */
+    justify-content: center;
+    align-items: center;
+}
+
+/* La caja blanca del mensaje */
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}

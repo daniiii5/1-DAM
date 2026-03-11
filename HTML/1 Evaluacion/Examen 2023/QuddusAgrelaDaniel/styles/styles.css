@@ -1,0 +1,304 @@
+body {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+}
+
+input {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 100000px;
+    width: 70%;
+    padding: 10px 0 10px 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.principal {
+    border: #111 2px solid;
+    position: relative;
+    margin-left: 25dvw;
+    width: 50dvw;
+}
+
+.leftover {
+    padding: 10px;
+}
+
+.menu {
+    padding: 20px;
+    position: fixed;
+    width: 25dvw;
+}
+
+.menu-btn {
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    border-radius: 10000px;
+    margin: 10px;
+    padding: 10px 100px 10px 20px;
+}
+
+.menu-btn:hover {
+    background-color: #111;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    top: 0;
+}
+
+.undo {
+    align-content: center;
+    padding: 0 30px;
+}
+
+.bar-details {
+    padding: 10px;
+}
+
+.profile-banner-img {
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+    z-index: -1;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    font-size: large;
+    text-align: center;
+    padding: 30px;
+    border-radius: 100000px !important;
+    background-color: #000;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.profile-pic {
+    width: 20px;
+    height: 20px;
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+    border-radius: 100000px !important;
+    background-color: #000;
+    position: absolute;
+}
+
+.menu-search{
+    position: relative;
+    z-index: 2;
+}
+
+.name {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.username {
+    padding-top: 5px;
+    font-size: small;
+    color: #aaa;
+}
+
+.datejoin {
+    padding-top: 5px;
+    font-size: small;
+    color: #aaa;
+}
+
+.general-stats {
+    color: #aaa;
+}
+
+.stats {
+    display: flex;
+}
+
+.stat {
+    color: #aaa;
+    padding-top: 5px;
+    padding-right: 10px;
+    font-size: small;
+}
+
+.stat-digit {
+    color: #fff;
+}
+
+.posters {
+    padding: 10px;
+    border: #111 1px solid;
+}
+
+.right-info {
+    display: grid;
+    padding-left: 75px;
+}
+
+.profile-details {
+    display: flex;
+    padding: 10px 0;
+}
+
+.profile-username {
+    color: #aaa;
+}
+
+.info-child {
+    padding-right: 5px;
+}
+
+.post-actions {
+    display: flex;
+}
+
+.action {
+    color: #aaa;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: small;
+}
+
+.special {
+    position: fixed;
+    margin-left: 75dvw;
+}
+
+.post {
+    padding-left: 100px;
+    background-color: #1d9bf0;
+    border-radius: 100000px;
+    width: 50%;
+    justify-content: center;
+}
+
+.post:hover {
+    background-color: #0f5380;
+}
+
+.trend-name {
+    font-size: x-large;
+}
+
+.trends {
+    background-color: #1a1a1a !important;
+    border-radius: 15px !important;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: small !important;
+}
+
+.global-name {
+    color: #aaa;
+}
+
+.global-tag {
+    font-weight: bold;
+}
+
+.global-stats {
+    color: #aaa;
+}
+
+.trend {
+    margin-top: 20px;
+    display: block;
+}
+
+
+
+.cookies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #000;
+    position: fixed;
+    background-color: #fff;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cookies-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.cookies-title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.cookies-desc {
+    font-size: small;
+}
+
+
+.cookies-buttons {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookie-btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 100000px;
+    border: none;
+    padding: 10px;
+    width: 70%;
+    margin: 5px;
+}
+
+.cookie-btn:hover {
+    background-color: #333;
+    transition: 0.1s;
+}
+
+
+@media (max-width: 900px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        display: none;
+    }
+    .top-bar {
+        display: none;
+    }
+    .special {
+        display: none;
+    }
+    .cookies {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0;
+    }
+    .principal {
+        margin-left: 0dvw;
+        width: 100dvw;
+    }
+}

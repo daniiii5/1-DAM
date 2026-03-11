@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Interactiva de Corrección de HTML</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chosen Palette: Minimalist Calm Blues -->
+    <!-- Application Structure Plan: A single-page app with a filterable grid of interactive cards. The top navigation allows users to filter exercises by category (Texto, Listas, etc.), promoting focused learning. Each card presents a problem and has a 'Show Solution' button that toggles the display of the corrected code and an explanation. This card-based, interactive approach was chosen to make learning active and self-paced, which is more engaging for beginners than a static document. The color scheme was updated to a cool blue palette for a more professional and calming aesthetic. -->
+    <!-- Visualization & Content Choices: Report Info: HTML problems/solutions -> Goal: Teach correction -> Presentation Method: Code snippets in styled cards (`<pre><code>`) -> Interaction: A toggle button reveals the solution and explanation (JS show/hide). Report Info: Exercise categories -> Goal: Organize -> Presentation Method: Navigation buttons -> Interaction: JS filters the displayed cards. This structure avoids complex visualizations and uses clean HTML/CSS and simple JS interactions for clarity and focus on the code itself. -> Library/Method: Vanilla JS, Tailwind CSS. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            background-color: #F5F8FA;
+            color: #1E2B3A;
+            font-family: 'Inter', sans-serif;
+        }
+        .filter-btn {
+            transition: all 0.3s ease;
+        }
+        .filter-btn.active {
+            background-color: #2563EB; 
+            color: #FFFFFF;
+            font-weight: 600;
+        }
+        .code-block {
+            background-color: #EBF4FF;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.875rem;
+            color: #1F2937;
+            overflow-x: auto;
+        }
+        .solution-block {
+            border-top: 2px solid #93C5FD;
+            margin-top: 1rem;
+            padding-top: 1rem;
+        }
+        .explanation-text {
+            background-color: #F8FAFC;
+            padding: 0.5rem;
+            border-left: 4px solid #3B82F6;
+            font-style: italic;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto px-4 py-8 md:py-12">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-blue-900">Práctica de HTML</h1>
+            <p class="mt-2 text-lg text-gray-600">Encuentra y corrige los errores en los siguientes fragmentos de código.</p>
+        </header>
+
+        <nav id="filter-nav" class="flex flex-wrap justify-center gap-2 md:gap-4 mb-10">
+            <button data-category="all" class="filter-btn active px-4 py-2 rounded-full bg-blue-100 text-blue-800 hover:bg-blue-200">Todos</button>
+            <button data-category="texto" class="filter-btn px-4 py-2 rounded-full bg-blue-100 text-blue-800 hover:bg-blue-200">Texto y Encabezados</button>
+            <button data-category="listas" class="filter-btn px-4 py-2 rounded-full bg-blue-100 text-blue-800 hover:bg-blue-200">Listas</button>
+            <button data-category="enlaces" class="filter-btn px-4 py-2 rounded-full bg-blue-100 text-blue-800 hover:bg-blue-200">Enlaces</button>
+            <button data-category="imagenes" class="filter-btn px-4 py-2 rounded-full bg-blue-100 text-blue-800 hover:bg-blue-200">Imágenes</button>
+        </nav>
+
+        <main id="exercise-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        </main>
+    </div>
+
+    <script>
+        const exercises = [
+            { id: 1, category: 'texto', problem: '<h1> ¡Hola, mundo! </h>' },
+            { id: 2, category: 'texto', problem: '<h2>Mi primera página web</h>\n<p>\n  Esta es una breve descripción de mi proyecto.\n</p>' },
+            { id: 3, category: 'texto', problem: '<p>\n  El <i/>código HTML</i> es muy divertido.\n</p>' },
+            { id: 4, category: 'texto', problem: '<h3>Acerca de mí</h3>\n<p>\n  ¡Hola! Mi nombre es Juan.\n</p' },
+            { id: 5, category: 'texto', problem: '<p>\n  Es muy <p>importante</b> sobre la Web.\n</b>' },
+            { id: 6, category: 'listas', problem: '<ol>\n  <li>Paso 1</li>\n  <li>Paso 2\n  <li>Paso 3</li>\n</ol>' },
+            { id: 7, category: 'listas', problem: '<ul>\n  <li>Harina</li>\n  <li>Azúcar</li>\n  <li>Leche</li>\n</ul/>' },
+            { id: 8, category: 'listas', problem: '<ol>\n  <li>Frutas</li>\n  <ul>\n    <li>Manzana</li>\n  </ul>\n  <li>Verduras</li>\n  <ul>\n    <li>Zanahoria</li>\n  </ul>\n</ol>' },
+            { id: 9, category: 'listas', problem: '<lu>\n  <li>Comprar pan</li>\n  <li>Hacer la cena</li>\n</lu>' },
+            { id: 10, category: 'listas', problem: '<ul>\n  <li>Entradas\n  <li>Plato principal\n  <li>Postres</li>\n</ul>' },
+            { id: 11, category: 'enlaces', problem: '<a href="www.google.com">Google</a>' },
+            { id: 12, category: 'enlaces', problem: '<a href="https://ejemplo.com" target=blank>Visitar ejemplo</a>' },
+            { id: 13, category: 'enlaces', problem: '<a href=about.html>Acerca de nosotros</a>' },
+            { id: 14, category: 'enlaces', problem: '<a href="https://ejemplo.com" target="_blank">\n  <image src="image.jpg">\n</a>' },
+            { id: 15, category: 'enlaces', problem: '<p>\n  <a>Visitar\n    href="https://ejemplo.com"\n    >ejemplo</a>\n</p>' },
+            { id: 16, category: 'imagenes', problem: '<img src="https://via.placeholder.com/150" alt="Placerholder"></img>' },
+            { id: 17, category: 'imagenes', problem: '<img src="imagen.jpg" texto_alt="Descripción de la imagen">' },
+            { id: 18, category: 'imagenes', problem: '<img src="logo.png" width="300">' },
+            { id: 19, category: 'imagenes', problem: '<a href="https://google.com">\n<img src="imagen_pequena.png" alt="Google">\n</a>' },
+            { id: 20, category: 'imagenes', problem: '<img src="foto.jpg"> Texto: mi foto de perfil' },
+        ];
+
+        const grid = document.getElementById('exercise-grid');
+        const filterNav = document.getElementById('filter-nav');
+
+        function renderExercises(filter = 'all') {
+            grid.innerHTML = '';
+            const filteredExercises = filter === 'all' 
+                ? exercises 
+                : exercises.filter(ex => ex.category === filter);
+
+            filteredExercises.forEach(ex => {
+                const card = document.createElement('div');
+                card.className = 'exercise-card bg-white p-6 rounded-lg shadow-md border border-gray-200';
+                card.dataset.category = ex.category;
+
+                card.innerHTML = `
+                    <h3 class="font-semibold text-lg mb-1 text-gray-800">Ejercicio ${ex.id}</h3>
+                    <p class="text-sm text-gray-500 mb-4">Categoría: <span class="font-medium capitalize">${ex.category}</span></p>
+                    <div class="code-block"><pre><code>${ex.problem.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code></pre></div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        filterNav.addEventListener('click', function(e) {
+            if (e.target.tagName === 'BUTTON') {
+                const category = e.target.dataset.category;
+                
+                // Update active button style
+                filterNav.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                e.target.classList.add('active');
+                
+                renderExercises(category);
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', () => renderExercises());
+    </script>
+</body>
+</html>
