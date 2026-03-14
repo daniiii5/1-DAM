@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SpaceX</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <script src="scripts/script.js"></script>
+    </head>
+    <body>
+        <div class="nave"></div>
+        <div class="principal">
+            <div class="titulo">
+                <h1>STARSHIP SUPER HEAVY</h1>
+                <h3>Gestion de Cargas</h3>
+            </div>
+            <div class="cargas"></div>
+            <div class="info">
+                <div class="masa">
+                    <p>Masa Total</p>
+                    <p id="masa-data">50kg</p>
+                </div>
+                <div class="precio">
+                    <p>Precio Total</p>
+                    <p id="precio-data">10€</p>
+                </div>
+                <div class="carga">
+                    <p>Carga</p>
+                    <p id="carga-data">90%</p>
+                </div>
+                <div id="show-form" class="boton">Añadir</div>
+            </div>
+            <form action="" class="formulario">
+                <div class="form-element form-nombre">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" required />
+                </div>
+                <div class="form-element form-masa">
+                    <label for="masa">Masa</label>
+                    <input id="masa" type="number" required />
+                </div>
+                <button type="submit" id="form-submit" class="boton">
+                    Añadir
+                </button>
+            </form>
+        </div>
+    </body>
+</html>

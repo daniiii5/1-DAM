@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head lang="es-ES">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mis Películas</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+        <h1 class="web-title">Mis Peliculas</h1>
+
+        <div class="films"></div>
+
+        <div class="circle remove remove-btn">-</div>
+        <div class="circle add add-btn">+</div>
+
+        <div class="menu-bg">
+            <form action="" id="film-form">
+                <div class="menu-option menu-inputs">
+                    <input
+                        id="film-name"
+                        placeholder="Película"
+                        type="text"
+                        required
+                    />
+                    <input
+                        id="film-image"
+                        placeholder="Foto"
+                        type="number"
+                        required
+                    />
+                </div>
+                <div class="menu-option menu-textarea">
+                    <textarea
+                        name=""
+                        id="textarea"
+                        placeholder="Descripcion"
+                        type="text"
+                        required
+                    ></textarea>
+                </div>
+                <div class="menu-option menu-buttons">
+                    <button type="button" id="form-close">Cerrar</button>
+                    <button type="submit" id="form-add">Añadir</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
